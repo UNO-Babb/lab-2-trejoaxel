@@ -24,7 +24,7 @@ def main():
   num = random.random() 
   num = num * 1000 
   num = int(num)
-  num = num % 2 # 0 - 2
+  num = num % 20 # 0 - 19
 
   question = input("Ask me a question: ")
   print(answers[num])
